@@ -1,7 +1,7 @@
 ESX = nil
 local sMatot = {}
 
-TriggerEvent('arp:getSharedObject', function(obj) ESX = obj end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterServerEvent('matot:lisaa')
 AddEventHandler('matot:lisaa', function(x, y ,z, h)
